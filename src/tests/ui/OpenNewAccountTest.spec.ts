@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { OpenNewAccount } from "../pages/OpenNewAccountPage";
-import { TransferFunds } from "../pages/TransferFundsPage";
+import { OpenNewAccount } from "../../pages/OpenNewAccountPage";
+import { TransferFunds } from "../../pages/TransferFundsPage";
 
 test.describe.serial('Banking Flow: Open Account → Fund Transfer', () => {
   

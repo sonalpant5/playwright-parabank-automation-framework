@@ -1,7 +1,8 @@
 // registration.spec.ts
+/// <reference types="node" />
 import { test } from '@playwright/test';
-import { RegistrationPage } from '../pages/RegistrationPage';
-import fs from 'fs';
+import { RegistrationPage } from '../../pages/RegistrationPage';
+import * as fs from 'fs';
 import path from 'path';
 
 const authFile = path.join(__dirname, '../../playwright/.auth/user.json');
